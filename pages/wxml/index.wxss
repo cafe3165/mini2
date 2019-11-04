@@ -1,1 +1,6 @@
 /* pages/wxml/index.wxss */
+.hover{
+
+  background-color: gray;
+
+}

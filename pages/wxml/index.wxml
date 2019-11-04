@@ -1,4 +1,5 @@
 <!--pages/wxml/index.wxml-->
+<import src="tmp.wxml"/>
 <!-- <text>pages/wxml/index.wxml</text> -->
 
 <!-- <text>{{time}}</text>
@@ -14,6 +15,43 @@
 <!-- <view wx:for="{{array}}">
   {{index}}: {{item.message}}
 </view> -->
+<!-- <view style="color: red; font-size: 48rpx"></view>
 <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
   {{idx}}: {{itemName.message}}
 </view>
+<template is="msgItem" data="{{...item}}"/>
+
+<view>{{ msg }}</view>
+
+<view>{{text}}</view>
+<view>{{array[0].msg}}</view> -->
+<!-- <view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+<view id="outer" catchtap="handleTap">
+  <view id="inner">点击我</view>
+</view> -->
+<!-- <view
+  id="outer"
+  bind:touchstart="handleTap1"
+  capture-bind:touchstart="handleTap2"
+>
+  outer view
+  <view
+    id="inner"
+    bind:touchstart="handleTap3"
+    capture-bind:touchstart="handleTap4"
+  >
+    inner view
+  </view>
+</view> -->
+
+<!-- <button hover-class="hover"> 点击button </button>
+
+<view hover-class="hover"> 点击view</view>
+
+
+<button loading="{{loading}}" bindtap="tap">操作</button> -->
+
+<button hover-class="hover" bindtap="request"> 点击button </button>
+
+
+
